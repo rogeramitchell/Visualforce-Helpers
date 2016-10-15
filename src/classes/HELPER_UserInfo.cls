@@ -1,6 +1,6 @@
 public class HELPER_UserInfo 
 {
-	@RemoteAction
+		@RemoteAction
     public static UserInfoDetails getUserInfoDetails()
     {
         UserInfoDetails details = new UserInfoDetails();
