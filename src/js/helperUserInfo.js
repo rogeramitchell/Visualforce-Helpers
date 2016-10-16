@@ -21,42 +21,42 @@ var currencyIsBefore; // defines whether symbol appears before or after the numb
 function handleCurrencyFormat() {
   // UAE DirhamuserCurrency
   if(userCurrency == "AED") { 
-    currencySymbol = "AED"; 
-    currencyIsBefore = true;
+    currencySymbol = "د.إ"; 
+    currencyIsBefore = false;
   }
   // Afghanistan Afghani (New)
   if(userCurrency == "AFN") { 
-    currencySymbol = "AFN"; 
-    currencyIsBefore = true;
+    currencySymbol = "؋"; 
+    currencyIsBefore = false;
   }
   // Albanian Lek
   if(userCurrency == "ALL") { 
-    currencySymbol = "ALL"; 
+    currencySymbol = "Lek"; 
     currencyIsBefore = true;
   }
-  // Armenian Dram
+  // Armenian Dram - does not have symbol to display as character in browser
   if(userCurrency == "AMD") { 
     currencySymbol = "AMD"; 
     currencyIsBefore = true;
   }
   // Neth Antilles Guilder
   if(userCurrency == "ANG") { 
-    currencySymbol = "ANG"; 
+    currencySymbol = "ƒ"; 
     currencyIsBefore = true;
   }
   // Angola Kwanza
   if(userCurrency == "AOA") { 
-    currencySymbol = "AOA"; 
+    currencySymbol = "Kz"; 
     currencyIsBefore = true;
   }
   // Argentine Peso
   if(userCurrency == "ARS") { 
-    currencySymbol = "ARS"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Australian Dollar
   if(userCurrency == "AUD") { 
-    currencySymbol = "AUD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Aruba Florin
@@ -66,32 +66,32 @@ function handleCurrencyFormat() {
   }
   // Azerbaijanian New Manat
   if(userCurrency == "AZN") { 
-    currencySymbol = "AZN"; 
+    currencySymbol = "ƒ"; 
     currencyIsBefore = true;
   }
   // Convertible Marks
   if(userCurrency == "BAM") { 
-    currencySymbol = "BAM"; 
+    currencySymbol = "KM"; 
     currencyIsBefore = true;
   }
   // Barbados Dollar
   if(userCurrency == "BBD") { 
-    currencySymbol = "BBD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Bangladesh Taka
   if(userCurrency == "BDT") { 
-    currencySymbol = "BDT"; 
+    currencySymbol = "Tk"; 
     currencyIsBefore = true;
   }
   // Bulgaria Lev
   if(userCurrency == "BGN") { 
-    currencySymbol = "BGN"; 
+    currencySymbol = "лв"; 
     currencyIsBefore = true;
   }
   // Bahraini Dinar
   if(userCurrency == "BHD") { 
-    currencySymbol = "BHD"; 
+    currencySymbol = "BD"; 
     currencyIsBefore = true;
   }
   // Burundi Franc
@@ -101,37 +101,37 @@ function handleCurrencyFormat() {
   }
   // Bermuda Dollar
   if(userCurrency == "BMD") { 
-    currencySymbol = "BMD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Brunei Dollar
   if(userCurrency == "BND") { 
-    currencySymbol = "BND"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Bolivian Boliviano
   if(userCurrency == "BOB") { 
-    currencySymbol = "BOB"; 
+    currencySymbol = "$b"; 
     currencyIsBefore = true;
   }
-  // Bolivia Mvdol
+  // Bolivia Mvdol - not found in www.xe.com
   if(userCurrency == "BOV") { 
     currencySymbol = "BOV"; 
     currencyIsBefore = true;
   }
-  // Brazilian Cruzeiro (old)
+  // Brazilian Cruzeiro (old) - not found in www.xe.com
   if(userCurrency == "BRB") { 
     currencySymbol = "BRB"; 
     currencyIsBefore = true;
   }
   // Brazilian Real
   if(userCurrency == "BRL") { 
-    currencySymbol = "BRL"; 
+    currencySymbol = "R$"; 
     currencyIsBefore = true;
   }
   // Bahamian Dollar
   if(userCurrency == "BSD") { 
-    currencySymbol = "BSD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Bhutan Ngultrum
@@ -141,22 +141,22 @@ function handleCurrencyFormat() {
   }
   // Botswana Pula
   if(userCurrency == "BWP") { 
-    currencySymbol = "BWP"; 
+    currencySymbol = "P"; 
     currencyIsBefore = true;
   }
   // Belarussian Ruble
   if(userCurrency == "BYR") { 
-    currencySymbol = "BYR"; 
+    currencySymbol = "p."; 
     currencyIsBefore = true;
   }
   // Belize Dollar
   if(userCurrency == "BZD") { 
-    currencySymbol = "BZD"; 
+    currencySymbol = "BZ$"; 
     currencyIsBefore = true;
   }
   // Canadian Dollar
   if(userCurrency == "CAD") { 
-    currencySymbol = "CAD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Franc Congolais
@@ -169,45 +169,45 @@ function handleCurrencyFormat() {
     currencySymbol = "CHF"; 
     currencyIsBefore = true;
   }
-  // Unidades de fomento
+  // Unidades de fomento - not found in www.xe.com
   if(userCurrency == "CLF") { 
     currencySymbol = "CLF"; 
     currencyIsBefore = true;
   }
   // Chilean Peso
   if(userCurrency == "CLP") { 
-    currencySymbol = "CLP"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Chinese Yuan
   if(userCurrency == "CNY") { 
-    currencySymbol = "CNY"; 
+    currencySymbol = "¥"; 
     currencyIsBefore = true;
   }
   // Colombian Peso
   if(userCurrency == "COP") { 
-    currencySymbol = "COP"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Costa Rica Colon
   if(userCurrency == "CRC") { 
-    currencySymbol = "CRC"; 
+    currencySymbol = "₡"; 
     currencyIsBefore = true;
   }
   // Cuban Peso
   if(userCurrency == "CUP") { 
-    currencySymbol = "CUP"; 
+    currencySymbol = "₱"; 
     currencyIsBefore = true;
   }
   // Cape Verde Escudo
   if(userCurrency == "CVE") { 
-    currencySymbol = "CVE"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Czech Koruna
   if(userCurrency == "CZK") { 
-    currencySymbol = "CZK"; 
-    currencyIsBefore = true;
+    currencySymbol = "Kč"; 
+    currencyIsBefore = false;
   }
   // Dijibouti Franc
   if(userCurrency == "DJF") { 
@@ -216,12 +216,12 @@ function handleCurrencyFormat() {
   }
   // Danish Krone
   if(userCurrency == "DKK") { 
-    currencySymbol = "DKK"; 
+    currencySymbol = "kr"; 
     currencyIsBefore = true;
   }
   // Dominican Peso
   if(userCurrency == "DOP") { 
-    currencySymbol = "DOP"; 
+    currencySymbol = "RD$"; 
     currencyIsBefore = true;
   }
   // Algerian Dinar
@@ -229,14 +229,14 @@ function handleCurrencyFormat() {
     currencySymbol = "DZD"; 
     currencyIsBefore = true;
   }
-  // Estonian Kroon
+  // Estonian Kroon - not found in www.xe.com
   if(userCurrency == "EEK") { 
     currencySymbol = "EEK"; 
     currencyIsBefore = true;
   }
   // Egyptian Pound
   if(userCurrency == "EGP") { 
-    currencySymbol = "EGP"; 
+    currencySymbol = "£"; 
     currencyIsBefore = true;
   }
   // Eritrea Nakfa
@@ -246,27 +246,27 @@ function handleCurrencyFormat() {
   }
   // Ethiopian Birr
   if(userCurrency == "ETB") { 
-    currencySymbol = "ETB"; 
+    currencySymbol = "Br"; 
     currencyIsBefore = true;
   }
   // Euro
   if(userCurrency == "EUR") { 
-    currencySymbol = "EUR"; 
+    currencySymbol = "€"; 
     currencyIsBefore = true;
   }
   // Fiji Dollar
   if(userCurrency == "FJD") { 
-    currencySymbol = "FJD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Falkland Islands Pound
   if(userCurrency == "FKP") { 
-    currencySymbol = "FKP"; 
+    currencySymbol = "£"; 
     currencyIsBefore = true;
   }
   // British Pound
   if(userCurrency == "GBP") { 
-    currencySymbol = "GBP"; 
+    currencySymbol = "£"; 
     currencyIsBefore = true;
   }
   // Georgia Lari
@@ -276,12 +276,12 @@ function handleCurrencyFormat() {
   }
   // Ghanian Cedi
   if(userCurrency == "GHS") { 
-    currencySymbol = "GHS"; 
+    currencySymbol = "GH¢"; 
     currencyIsBefore = true;
   }
   // Gibraltar Pound
   if(userCurrency == "GIP") { 
-    currencySymbol = "GIP"; 
+    currencySymbol = "£"; 
     currencyIsBefore = true;
   }
   // Gambian Dalasi
@@ -296,72 +296,72 @@ function handleCurrencyFormat() {
   }
   // Guatemala Quetzal
   if(userCurrency == "GTQ") { 
-    currencySymbol = "GTQ"; 
+    currencySymbol = "Q"; 
     currencyIsBefore = true;
   }
   // Guyana Dollar
   if(userCurrency == "GYD") { 
-    currencySymbol = "GYD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Hong Kong Dollar
   if(userCurrency == "HKD") { 
-    currencySymbol = "HKD"; 
+    currencySymbol = "HK$"; 
     currencyIsBefore = true;
   }
   // Honduras Lempira
   if(userCurrency == "HNL") { 
-    currencySymbol = "HNL"; 
+    currencySymbol = "L"; 
     currencyIsBefore = true;
   }
   // Croatian Kuna
   if(userCurrency == "HRK") { 
-    currencySymbol = "HRK"; 
+    currencySymbol = "kn"; 
     currencyIsBefore = true;
   }
   // Haiti Gourde
   if(userCurrency == "HTG") { 
-    currencySymbol = "HTG"; 
+    currencySymbol = "G"; 
     currencyIsBefore = true;
   }
   // Hungarian Forint
   if(userCurrency == "HUF") { 
-    currencySymbol = "HUF"; 
+    currencySymbol = "Ft"; 
     currencyIsBefore = true;
   }
   // Indonesian Rupiah
   if(userCurrency == "IDR") { 
-    currencySymbol = "IDR"; 
+    currencySymbol = "Rp"; 
     currencyIsBefore = true;
   }
   // Israeli Shekel
   if(userCurrency == "ILS") { 
-    currencySymbol = "ILS"; 
+    currencySymbol = "₪"; 
     currencyIsBefore = true;
   }
   // Indian Rupee
   if(userCurrency == "INR") { 
-    currencySymbol = "INR"; 
+    currencySymbol = "₹"; 
     currencyIsBefore = true;
   }
   // Iraqi Dinar
   if(userCurrency == "IQD") { 
-    currencySymbol = "IQD"; 
-    currencyIsBefore = true;
+    currencySymbol = "د.ع"; 
+    currencyIsBefore = false;
   }
   // Iranian Rial
   if(userCurrency == "IRR") { 
-    currencySymbol = "IRR"; 
-    currencyIsBefore = true;
+    currencySymbol = "﷼"; 
+    currencyIsBefore = false;
   }
   // Iceland Krona
   if(userCurrency == "ISK") { 
-    currencySymbol = "ISK"; 
+    currencySymbol = "kr"; 
     currencyIsBefore = true;
   }
   // Jamaican Dollar
   if(userCurrency == "JMD") { 
-    currencySymbol = "JMD"; 
+    currencySymbol = "J$"; 
     currencyIsBefore = true;
   }
   // Jordanian Dinar
@@ -371,22 +371,22 @@ function handleCurrencyFormat() {
   }
   // Japanese Yen
   if(userCurrency == "JPY") { 
-    currencySymbol = "JPY"; 
+    currencySymbol = "¥"; 
     currencyIsBefore = true;
   }
   // Kenyan Shilling
   if(userCurrency == "KES") { 
-    currencySymbol = "KES"; 
+    currencySymbol = "KSh"; 
     currencyIsBefore = true;
   }
   // Kyrgyzstan Som
   if(userCurrency == "KGS") { 
-    currencySymbol = "KGS"; 
+    currencySymbol = "лв"; 
     currencyIsBefore = true;
   }
   // Cambodia Riel
   if(userCurrency == "KHR") { 
-    currencySymbol = "KHR"; 
+    currencySymbol = "៛"; 
     currencyIsBefore = true;
   }
   // Comoros Franc
@@ -396,22 +396,22 @@ function handleCurrencyFormat() {
   }
   // North Korean Won
   if(userCurrency == "KPW") { 
-    currencySymbol = "KPW"; 
+    currencySymbol = "₩"; 
     currencyIsBefore = true;
   }
   // Korean Won
   if(userCurrency == "KRW") { 
-    currencySymbol = "KRW"; 
+    currencySymbol = "₩"; 
     currencyIsBefore = true;
   }
   // Kuwaiti Dinar
   if(userCurrency == "KWD") { 
-    currencySymbol = "KWD"; 
-    currencyIsBefore = true;
+    currencySymbol = "ك"; 
+    currencyIsBefore = false;
   }
   // Cayman Islands Dollar
   if(userCurrency == "KYD") { 
-    currencySymbol = "KYD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Kazakhstan Tenge
@@ -421,22 +421,22 @@ function handleCurrencyFormat() {
   }
   // Lao Kip
   if(userCurrency == "LAK") { 
-    currencySymbol = "LAK"; 
+    currencySymbol = "₭"; 
     currencyIsBefore = true;
   }
   // Lebanese Pound
   if(userCurrency == "LBP") { 
-    currencySymbol = "LBP"; 
-    currencyIsBefore = true;
+    currencySymbol = "ل.ل"; 
+    currencyIsBefore = false;
   }
   // Sri Lanka Rupee
   if(userCurrency == "LKR") { 
-    currencySymbol = "LKR"; 
+    currencySymbol = "₨"; 
     currencyIsBefore = true;
   }
   // Liberian Dollar
   if(userCurrency == "LRD") { 
-    currencySymbol = "LRD"; 
+    currencySymbol = "$"; 
     currencyIsBefore = true;
   }
   // Lesotho Loti
@@ -446,7 +446,7 @@ function handleCurrencyFormat() {
   }
   // Libyan Dinar
   if(userCurrency == "LYD") { 
-    currencySymbol = "LYD"; 
+    currencySymbol = "LD"; 
     currencyIsBefore = true;
   }
   // Moroccan Dirham
@@ -461,27 +461,27 @@ function handleCurrencyFormat() {
   }
   // Malagasy Ariary
   if(userCurrency == "MGA") { 
-    currencySymbol = "MGA"; 
+    currencySymbol = "Ar"; 
     currencyIsBefore = true;
   }
   // Macedonian Denar
   if(userCurrency == "MKD") { 
-    currencySymbol = "MKD"; 
+    currencySymbol = "ден"; 
     currencyIsBefore = true;
   }
   // Myanmar Kyat
   if(userCurrency == "MMK") { 
-    currencySymbol = "MMK"; 
+    currencySymbol = "K"; 
     currencyIsBefore = true;
   }
   // Mongolian Tugrik
   if(userCurrency == "MNT") { 
-    currencySymbol = "MNT"; 
+    currencySymbol = "₮"; 
     currencyIsBefore = true;
   }
   // Macau Pataca
   if(userCurrency == "MOP") { 
-    currencySymbol = "MOP"; 
+    currencySymbol = "MOP$"; 
     currencyIsBefore = true;
   }
   // Mauritania Ougulya
@@ -489,7 +489,7 @@ function handleCurrencyFormat() {
     currencySymbol = "MRO"; 
     currencyIsBefore = true;
   }
-  // Mauritius Rupee
+  // Mauritius Rupee - TODO: pickup here
   if(userCurrency == "MUR") { 
     currencySymbol = "MUR"; 
     currencyIsBefore = true;
